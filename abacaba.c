@@ -18,6 +18,10 @@ void GenerateString(int n, char* string)
 {
 	*string = 'a';
 	int len, i;
+/*
+ * После ; тоже пробелы ставьте:
+ * for (i = 1; i < n; i++)
+ */
 	for (i = 1;i < n;i++)
 	{
 		len = strlen(string);
@@ -26,5 +30,5 @@ void GenerateString(int n, char* string)
 		len = strlen(string);
 		string[len] = '\0';
 	}
-	printf("%s\n", string);		
+	printf("%s\n", string);
 }
