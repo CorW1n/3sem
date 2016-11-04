@@ -1,0 +1,6 @@
+glass : 1
+plate : 2
+spoon : 1
+fork : 1
+knife : 1
+pan : 3
